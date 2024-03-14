@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 50%;
+}
+
+.postcard {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.postcard-header {
+    
+   
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.postcard-header h1 {
+    margin: 0;
+}
+.postcard-header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.postcard-content {
+    padding: 20px;
+    display: flex;
+}
+
+.left-column {
+    flex: 1;
+}
+
+.right-column {
+    flex: 1;
+}
+.right-column input {
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: none; /* Elimina el borde de los inputs */
+    border-bottom: 1px solid #ccc; /* Agrega una línea horizontal */
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group input {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+}
+
+.postcard-footer {
+    padding: 20px;
+    text-align: center;
+}
+
+.send-button button {
+    padding: 10px 20px;
+    /*color gris de fondo*/
+    background-color: #808080;
+    /*color negro*/
+    color:black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.send-button button:hover {
+    background-color: #0056b3;
+}
